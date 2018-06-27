@@ -1,6 +1,6 @@
-package com.yourname.demo.dao;
+package com.tudt9.demo.dao;
 
-import com.yourname.demo.model.Student;
+import com.tudt9.demo.model.Student;
 import java.util.List;
 import java.util.UUID;
 

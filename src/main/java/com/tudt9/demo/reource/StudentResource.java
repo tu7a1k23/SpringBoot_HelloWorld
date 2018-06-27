@@ -1,7 +1,7 @@
-package com.yourname.demo.reource;
+package com.tudt9.demo.reource;
 
-import com.yourname.demo.model.Student;
-import com.yourname.demo.service.StudentService;
+import com.tudt9.demo.model.Student;
+import com.tudt9.demo.service.StudentService;
 import java.util.List;
 import java.util.UUID;
 import org.springframework.beans.factory.annotation.Autowired;

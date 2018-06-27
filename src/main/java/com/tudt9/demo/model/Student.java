@@ -1,4 +1,4 @@
-package com.yourname.demo.model;
+package com.tudt9.demo.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.UUID;

@@ -1,7 +1,7 @@
-package com.yourname.demo.service;
+package com.tudt9.demo.service;
 
-import com.yourname.demo.dao.StudentDao;
-import com.yourname.demo.model.Student;
+import com.tudt9.demo.dao.StudentDao;
+import com.tudt9.demo.model.Student;
 import java.util.List;
 import java.util.UUID;
 import org.springframework.beans.factory.annotation.Autowired;
