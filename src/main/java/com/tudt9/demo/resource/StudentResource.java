@@ -1,4 +1,4 @@
-package com.tudt9.demo.reource;
+package com.tudt9.demo.resource;
 
 import com.tudt9.demo.model.Student;
 import com.tudt9.demo.service.StudentService;
@@ -34,9 +34,9 @@ public class StudentResource {
   @RequestMapping(
       method = RequestMethod.GET,
       produces = MediaType.APPLICATION_JSON_VALUE,
-      path = "{studentId}"
+      path = "{studentId}" //not understand this yet
   )
-  public Student getStudentById(@PathVariable("studentId") UUID studentId) {
+  public Student getStudentById(@PathVariable("studentId") UUID studentId) { //not understand this annotation
     return studentService.getStudentById(studentId);
   }
 
@@ -44,7 +44,7 @@ public class StudentResource {
       method = RequestMethod.POST,
       consumes = MediaType.APPLICATION_JSON_VALUE
   )
-  public void insertNewStudent(@RequestBody Student student) {
+  public void insertNewStudent(@RequestBody Student student) {	//not understand this annotation
     studentService.persistNewStudent(UUID.randomUUID(), student);
   }
 
